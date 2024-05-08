@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/amitxd/LibConfig.py
+src/amitxd/__init__.py
+src/libconfig_py.egg-info/PKG-INFO
+src/libconfig_py.egg-info/SOURCES.txt
+src/libconfig_py.egg-info/dependency_links.txt
+src/libconfig_py.egg-info/requires.txt
+src/libconfig_py.egg-info/top_level.txt
