@@ -1,10 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='libconfig_py',
-    version='1.0.1',
-    packages=find_packages(where='src'),
-    package_dir={'': 'src'},
+    name='libconfigv1',
+    version='1.0.0',
+    packages=find_packages(),
     install_requires=['pyyaml'],
     author='amitminer',
     author_email='amitxd4871@gmail.com',
