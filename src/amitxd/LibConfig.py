@@ -1,5 +1,5 @@
-import yaml
 import os
+import yaml
 
 class LibConfig:
     def __init__(self, file):
@@ -56,18 +56,3 @@ class LibConfig:
         with open(self.file, 'w') as file:
             yaml.dump(self.data, file)
 
-# Example usage
-if __name__ == "__main__":
-    yaml_file = "config.yaml"
-    lib_config = LibConfig(yaml_file)
-
-    # Get a configuration value
-    value = lib_config.get("key")
-    print("Value:", value)
-
-    # Set a configuration value
-    lib_config.set("key", "new_value")
-
-    # Get the updated value
-    updated_value = lib_config.get("key")
-    print("Updated Value:", updated_value)
