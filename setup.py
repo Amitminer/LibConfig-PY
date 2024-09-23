@@ -1,3 +1,7 @@
+"""
+Setup configuration for the LibConfig library.
+"""
+
 from setuptools import setup, find_packages
 
 setup(
