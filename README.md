@@ -10,7 +10,7 @@ LibConfig is a Python library for working with YAML configuration files.
 You can install LibConfig using pip:
 
 ```
-pip install libconfig-py
+pip install libconfigv1
 ```
 
 ## Usage
