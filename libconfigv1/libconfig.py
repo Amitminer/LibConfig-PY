@@ -2,6 +2,10 @@ import os
 import yaml
 
 class LibConfig:
+    """
+    A class to manage configuration data stored in a YAML file.
+    """
+
     def __init__(self, file):
         """
         Constructor for LibConfig.
@@ -44,7 +48,7 @@ class LibConfig:
             dict: The configuration data.
         """
         if os.path.exists(self.file):
-            with open(self.file, 'r') as file:
+            with open(self.file, 'r', encoding='utf-8') as file:
                 yaml_data = yaml.safe_load(file)
             return yaml_data
         return {}
@@ -53,6 +57,5 @@ class LibConfig:
         """
         Save the configuration data to the YAML file.
         """
-        with open(self.file, 'w') as file:
+        with open(self.file, 'w', encoding='utf-8') as file:
             yaml.dump(self.data, file)
-
