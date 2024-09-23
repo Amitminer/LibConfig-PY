@@ -1,3 +1,7 @@
+"""
+libconfig - A library for managing configuration data stored in a YAML file.
+"""
+
 import os
 import yaml
 
